@@ -2110,8 +2110,8 @@ setInterval(function(){
 
     results.forEach(g=> { // this forEach will go trough all results and display them to user
        
-        all += `<div class="alert alert-success" role="alert" style="text-align:center">
-        <span style="font-size:80px;">Tour für ${g.SSNR} ist </span> <b  style="font-size:130px;">${g.Tour}</b>
+        all += `<div class="alert alert-success" id="message" role="alert" style="text-align:center">
+        <span id="first-part">Tour für ${g.SSNR} ist </span> <span id="snd-part"> <br/>${g.Tour}</span>
         </div> <br>`
     });
 
