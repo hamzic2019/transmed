@@ -30,7 +30,22 @@ canvas.drawing, canvas.drawingBuffer {
     font-size: 80px;;
 }
 
+#ovojedugme {
+    border-radius: 0px 5px 5px 0px;
+}
+
+#scanner_input {
+    border-radius: 5px 0px 0px 5px;
+}
+
 @media only screen and (max-width: 800px) { 
+    #ovojedugme {
+        border-radius: 0px 0px 5px 5px;
+    }
+    #scanner_input {
+        border-radius: 5px 5px 0px 0px;
+    }
+    
     #messageToTransmed > #message > #first-part {
         font-size: 30px; 
     }

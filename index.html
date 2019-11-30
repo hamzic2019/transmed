@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/index.css">
 </head>
-<body>
+<body onresize="haris()">
     
 
     <img src="./assets/transmed.png" class="img-fluid rounded mx-auto d-block" id="transmed-logo" alt="Responsive image">
 
 <div class="container">
         <div class="col-md-6 offset-md-3" id="div-input-button"></div>
-            <div class="input-group">
-                <input id="scanner_input" class="form-control" placeholder="Click the button to scan the code or enter code here" type="text" / onclick="runItNow()" onchange="runItNow()"> 
+            <div class="input-group" id="ovojeinput">
+                <input id="scanner_input" class="form-control" placeholder="Click the button to scan the code or enter code here" type="text"  onclick="runItNow()" onchange="runItNow()"> 
                 <span class="input-group-btn"> 
-                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#livestream_scanner" onclick="runItNow()">
+                    <button class="btn btn-primary" id="ovojedugme" type="button" data-toggle="modal" data-target="#livestream_scanner" onclick="runItNow()">
                        SCAN IT NOW!
                     </button> 
                 </span>

@@ -2117,3 +2117,23 @@ setInterval(function(){
 
     myDiv.innerHTML = all; // here is actual displaying process
  }, 1); // setInterval
+
+
+
+
+
+
+
+
+function haris(){
+    var w = window.innerWidth;
+    if(w < 800) {
+        document.getElementById("ovojedugme").className = "btn btn-primary btn-lg btn-block";
+        document.getElementById("ovojeinput").className = "input-group-lg";
+        console.log('HIT')
+    }else {
+        document.getElementById("ovojedugme").className = "btn btn-primary";
+        document.getElementById("ovojeinput").className = "input-group";
+    }
+
+}
