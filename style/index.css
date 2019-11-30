@@ -39,4 +39,8 @@ canvas.drawing, canvas.drawingBuffer {
         font-size: 40px;;
     }
 
+    #transmed-logo {
+        height: 50%;
+    }
+
 }
