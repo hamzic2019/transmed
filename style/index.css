@@ -40,8 +40,8 @@ canvas.drawing, canvas.drawingBuffer {
     }
 
     #transmed-logo {
-        max-width:35%;
-        height:auto;
+        max-width:35%!important;
+        height:auto!important;
     }
 
 }
