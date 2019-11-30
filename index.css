@@ -13,3 +13,11 @@
 canvas.drawing, canvas.drawingBuffer {
     position: absolute; left: 0; top: 0;
 }
+
+#transmed-logo {
+    margin-top: 25px!important;
+}
+
+#div-input-button {
+    margin-top:150px!important
+}
