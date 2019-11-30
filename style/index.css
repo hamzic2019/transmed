@@ -48,5 +48,6 @@ canvas.drawing, canvas.drawingBuffer {
 @media only screen and (max-width: 500px){
     #transmed-logo {
         height: 135px!important;
+        margin-top: 35px!important;
     }
 }
