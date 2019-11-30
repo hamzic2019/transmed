@@ -38,6 +38,9 @@ canvas.drawing, canvas.drawingBuffer {
     #messageToTransmed > #message > #snd-part {
         font-size: 40px;;
     }
+    #transmed-logo {
+        margin-top: 35px!important;
+    }
 
 }
 
